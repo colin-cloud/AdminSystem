@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.dao.EmployeeMapper">
+
+    <!-- 整合ehcache -->
+<!--    <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>-->
+    <!--    namespace ： 名称空间 指定位接口的全类名 -->
+    <!--    id : 唯一标识-->
+    <!--    resultType : 返回值类型-->
+    <!--    #{id} ： 从传递过来的参数中取出id值-->
+    <select id="getEmpById" resultType="employee" databaseId="mysql">
+        select * from t_emp where id = #{id}
+    </select>
+
+    <!--    联合查询：级联属性封装结果集-->
+    <resultMap id="MyEmp" type="com.company.bean.Employee">
+        <id column="id" property="id"/>
+        <result column="last_name" property="lastName"/>
+        <result column="gender" property="gender"/>
+        <result column="d_id" property="dept.id"/>
+        <result column="dept_name" property="dept.deptName"/>
+        <result column="email" property="email"/>
+    </resultMap>
+
+    <select id="getEmployees" resultMap="MyEmp">
+        select * from t_emp
+    </select>
+
+    <select id="getEmpAndDept" resultMap="MyEmp" >
+        select e.id id , e.last_name last_name, e.gender gender, e.dept_id dept_id, d.id d_id,
+        d.dept_name dept_name from t_emp e, t_dept d where e.id = d.id and e.id = #{id}
+    </select>
+
+<!--    void addEmployees(@Param("emps")List<Employee> employees);-->
+    <insert id="addEmployees">
+        insert into t_emp(last_name, email,gender, dept_id)
+        values
+        <foreach collection="emps" item="emp" separator=",">
+            (#{emp.lastName}, #{emp.email}, #{emp.gender}, #{emp.dept.id})
+        </foreach>
+    </insert>
+
+
+
+</mapper>

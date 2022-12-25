@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.plus.mapper.UserMapper">
+<!--    Map<String, Object> selectMapById(Long id);-->
+    <select id="selectMapById" resultType="map">
+        select id, name, age, email from user where id = #{id}
+    </select>
+<!--    Page<User> selectPageVo(@Param("page") Page<User> page, @Param("age") Integer age);-->
+    <select id="selectPageVo" resultType="User">
+        select id, name, age, email from user where age > #{age}
+    </select>
+    <insert id="insertSelective">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="isDeleted != null">is_deleted,</if>
+            <if test="name != null">name,</if>
+            <if test="age != null">age,</if>
+            <if test="email != null">email,</if>
+            <if test="sex != null">sex,</if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id,jdbcType=NUMERIC},</if>
+            <if test="isDeleted != null">#{isDeleted,jdbcType=NUMERIC},</if>
+            <if test="name != null">#{name,jdbcType=VARCHAR},</if>
+            <if test="age != null">#{age,jdbcType=NUMERIC},</if>
+            <if test="email != null">#{email,jdbcType=VARCHAR},</if>
+            <if test="sex != null">#{sex,jdbcType=NUMERIC},</if>
+        </trim>
+    </insert>
+    <delete id="deleteByIdAndName">
+delete from user
+where
+id = #{id,jdbcType=NUMERIC}
+ AND name = #{name,jdbcType=VARCHAR}
+</delete>
+    <select id="selectAllById" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where
+        id = #{id,jdbcType=NUMERIC}
+    </select>
+    <update id="updateAgeAndNameById">
+update user
+ set age = #{age,jdbcType=NUMERIC},
+ name = #{name,jdbcType=VARCHAR}
+where
+id = #{id,jdbcType=NUMERIC}
+</update>
+</mapper>

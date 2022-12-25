@@ -1,0 +1,3 @@
+com\example\boot\bean\HelloProperties.class
+com\example\boot\auto\HelloServiceAutoConfiguration.class
+com\example\boot\service\HelloService.class

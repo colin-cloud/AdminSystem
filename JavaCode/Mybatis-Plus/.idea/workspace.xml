@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa440fd0-fb2c-4bb8-adb5-e388d0b1d012" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JLwfVe82MVMdRlhrkvP7WCbauN" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.plus.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisPlusDatasourceApplicationTests.contextLoads">
+    <configuration name="TestFreeMarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.plus.TestFreeMarker" />
+      <module name="mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisEnumTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plus" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plus.MybatisEnumTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPluginTest.testPageVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plus" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plus.MybatisPluginTest" />
+      <option name="METHOD_NAME" value="testPageVo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusDatasourceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_datasource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plus" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plus.MybatisPlusDatasourceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plus" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plus.ProductTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plus.MybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusDatasourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis_plus_datasource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plus.MybatisPlusDatasourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisxDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisx_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plus.MybatisxDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisPlusDatasourceApplicationTests.contextLoads" />
+        <item itemvalue="Application.TestFreeMarker" />
+        <item itemvalue="JUnit.MybatisEnumTest.test01" />
+        <item itemvalue="JUnit.ProductTest.test01" />
+        <item itemvalue="JUnit.MybatisPluginTest.testPageVo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa440fd0-fb2c-4bb8-adb5-e388d0b1d012" name="Default Changelist" comment="" />
+      <created>1671870774688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671870774688</updated>
+      <workItem from="1671870777359" duration="16754000" />
+      <workItem from="1671928654790" duration="10182000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="192" key="#Project_Structure" timestamp="1671934664084">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="446" y="192" key="#Project_Structure/0.0.1707.1067@0.0.1707.1067" timestamp="1671934664084" />
+    <state x="446" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671943845158">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="446" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1671943845158" />
+    <state x="659" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1671933553759">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="659" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1671933553759" />
+    <state x="584" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1671935938509">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="584" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1671935938509" />
+    <state x="54" y="106" width="1521" height="881" key="DiffContextDialog" timestamp="1671890356642">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="54" y="106" width="1521" height="881" key="DiffContextDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1671890356642" />
+    <state width="1663" height="288" key="GridCell.Tab.0.bottom" timestamp="1671957668593">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="288" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1671957668593" />
+    <state width="1663" height="288" key="GridCell.Tab.0.center" timestamp="1671957668593">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="288" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1671957668593" />
+    <state width="1663" height="288" key="GridCell.Tab.0.left" timestamp="1671957668592">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="288" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1671957668592" />
+    <state width="1663" height="288" key="GridCell.Tab.0.right" timestamp="1671957668593">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="288" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1671957668593" />
+    <state width="1662" height="358" key="GridCell.Tab.1.bottom" timestamp="1671893828583">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1662" height="358" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1671893828583" />
+    <state width="1662" height="358" key="GridCell.Tab.1.center" timestamp="1671893828583">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1662" height="358" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1671893828583" />
+    <state width="1662" height="358" key="GridCell.Tab.1.left" timestamp="1671893828583">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1662" height="358" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1671893828583" />
+    <state width="1662" height="358" key="GridCell.Tab.1.right" timestamp="1671893828583">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1662" height="358" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1671893828583" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1671943949281">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1707.1067@0.0.1707.1067" timestamp="1671943949281" />
+    <state x="384" y="189" key="Maven.ArtifactSearchDialog" timestamp="1671871791851">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="384" y="189" key="Maven.ArtifactSearchDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1671871791851" />
+    <state x="334" y="108" key="SettingsEditor" timestamp="1671943457108">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="334" y="108" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1671943457108" />
+    <state x="681" y="214" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1671943915375">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="681" y="214" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1671943915375" />
+    <state x="538" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1671928720429">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="538" y="358" key="com.intellij.ide.util.TipDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1671928720429" />
+    <state x="382" y="267" key="new project wizard" timestamp="1671943660661">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="382" y="267" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1671943660661" />
+    <state x="516" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1671935433565">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="516" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1671935433565" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-plus/src/test/java/com/example/plus/MybatisPluginTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

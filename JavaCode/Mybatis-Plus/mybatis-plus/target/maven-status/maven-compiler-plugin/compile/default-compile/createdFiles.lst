@@ -1,0 +1,6 @@
+com\example\plus\mapper\UserMapper.class
+com\example\plus\service\UserService.class
+com\example\plus\bean\User.class
+com\example\plus\MybatisPlusApplication.class
+com\example\plus\service\impl\UserServiceImpl.class
+com\example\plus\config\MybatisPlusConfig.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="emp" class="com.company.bean.Employee">
+        <property name="name" value="小王"></property>
+        <property name="gender" value="男"></property>
+        <property name="department">
+<!--            使用内部bean注入-->
+            <bean id="department" class="com.company.bean.Department">
+                <property name="name" value="管理"></property>
+            </bean>
+        </property>
+        <property name="department.name" value="技术部"></property>
+    </bean>
+
+
+</beans>

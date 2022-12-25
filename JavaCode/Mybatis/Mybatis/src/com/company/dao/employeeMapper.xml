@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.dao.EmployeeMapper">
+<!--    namespace ： 名称空间 指定位接口的全类名 -->
+<!--    id : 唯一标识-->
+<!--    resultType : 返回值类型-->
+<!--    #{id} ： 从传递过来的参数中取出id值-->
+    <select id="getEmpById" resultType="employee" databaseId="mysql">
+        select * from t_emp where id = #{id}
+    </select>
+</mapper>

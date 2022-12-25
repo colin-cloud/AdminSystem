@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>成功获取域对象中的属性值</title>
+</head>
+<body>
+<h1>域对象中的属性</h1>
+<p th:text="${testScope}"></p>
+<p th:text="${session.testSession}"></p>
+<p th:text="${application.testApplication}"></p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Mybatis-1/lib/ehcache-core-2.6.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Mybatis-1/lib/mybatis-3.5.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Mybatis-1/lib/mybatis-ehcache-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Mybatis-1/lib/mysql-connector-java-5.1.45-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Mybatis-1/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Mybatis-1/lib/slf4j-log4j12-1.6.2.jar!/" />
+      <root url="file://$PROJECT_DIR$/Mybatis-1/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/Mybatis-1/lib" recursive="false" />
+  </library>
+</component>

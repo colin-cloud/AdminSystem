@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-dbutils-1.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-dbutils-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/druid-1.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.1.45-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/commons-dbutils-1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

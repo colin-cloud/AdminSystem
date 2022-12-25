@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18839d9e-3ad1-4b16-a1b7-ce6e23dd783f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MybatisDemo" />
+  </component>
+  <component name="ProjectId" id="2HNulA9T4Z3YORSojbJbSA2EI4m" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18839d9e-3ad1-4b16-a1b7-ce6e23dd783f" name="Default Changelist" comment="" />
+      <created>1668138011408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668138011408</updated>
+      <workItem from="1668138014662" duration="262000" />
+      <workItem from="1668138317395" duration="157000" />
+      <workItem from="1668415434662" duration="5000" />
+      <workItem from="1668417568589" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="289" key="FileChooserDialogImpl" timestamp="1668138403325">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="634" y="289" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1668138403325" />
+    <state x="334" y="108" key="SettingsEditor" timestamp="1668138214015">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="334" y="108" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1668138214015" />
+    <state x="538" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1668138316960">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="538" y="358" key="com.intellij.ide.util.TipDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1668138316960" />
+    <state x="562" y="427" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1668138108565">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="562" y="427" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1707.1067@0.0.1707.1067" timestamp="1668138108565" />
+    <state x="241" y="144" key="new project wizard" timestamp="1668138345242">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="241" y="144" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1668138345242" />
+  </component>
+</project>

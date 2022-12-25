@@ -1,0 +1,4 @@
+com\example\boot\bean\Person.class
+com\example\boot\controller\HelloController.class
+com\example\boot\bean\Pet.class
+com\example\boot\BootHelloworld2Application.class

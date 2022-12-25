@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    配置后置处理器-->
+    <bean id="myBeanPost" class="com.company.bean.MyBeanPost"></bean>
+<!--    配置bean类-->
+    <bean id="orders" class="com.company.Orders" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="name" value="小王"></property>
+        <property name="address" value="中国"></property>
+    </bean>
+</beans>

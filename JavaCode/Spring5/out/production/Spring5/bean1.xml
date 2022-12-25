@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--        配置User对象创建-->
+        <bean id="user" class="com.company.User"></bean>
+<!--        id 属性 获取对象时的唯一标识-->
+<!--        class 属性 类的全路径-->
+
+        <bean id="book" class="com.company.Book">
+<!--                使用property完成属性注入-->
+                <property name="bookName" value="易经经"></property>
+                <property name="bookAuthor" value="达摩老祖"></property>
+        </bean>
+        <bean id="book1" class="com.company.Book">
+                <!--                使用property完成属性注入-->
+                <property name="bookName" value="java从入门到精通"></property>
+                <property name="bookAuthor" value="不知名"></property>
+<!--                设置null值-->
+<!--                <null/>-->
+        </bean>
+<!--        使用p名称空间进行注入属性-->
+        <bean id="book2" class="com.company.Book" p:bookName="九阳神功" p:bookAuthor="无名氏">
+
+        </bean>
+
+<!--        构造器注入-->
+        <bean id="orders1" class="com.company.Orders" init-method="initMethod" destroy-method="destroyMethod">
+                <constructor-arg name="name" value="电脑"></constructor-arg>
+                <constructor-arg name="address">
+<!--                        属性值包括特殊符号-->
+                        <value><![CDATA[<<南京>>]]></value>
+                </constructor-arg>
+        </bean>
+</beans>

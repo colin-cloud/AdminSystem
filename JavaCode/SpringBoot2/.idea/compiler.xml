@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-helloworld2" />
+        <module name="boot-web-01" />
+        <module name="boot-HelloWorld" />
+        <module name="boot-hello-test" />
+        <module name="boot-web-admin" />
+        <module name="example-hello-spring-boot-starter-autoconfigure" />
+        <module name="boot-features-profile" />
+        <module name="example-hello-spring-boot-starter" />
+        <module name="boot-adminserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="boot-adminserver" target="1.8" />
+      <module name="boot-custom-starter" target="1.5" />
+      <module name="boot-features-profile" target="1.8" />
+      <module name="boot-hello-test" target="1.8" />
+      <module name="boot-HelloWorld" target="1.5" />
+      <module name="boot-helloworld2" target="1.8" />
+      <module name="boot-starter-custom" target="1.5" />
+      <module name="boot-web-01" target="1.8" />
+      <module name="boot-web-admin" target="1.8" />
+      <module name="example-hello-spring-boot-starter" target="1.5" />
+      <module name="example-hello-spring-boot-starter-autoconfigue" target="1.8" />
+      <module name="example-hello-spring-boot-starter-autoconfigure" target="1.8" />
+      <module name="SpringBoot2" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-adminserver" options="-parameters" />
+      <module name="boot-features-profile" options="-parameters" />
+      <module name="boot-hello-test" options="-parameters" />
+      <module name="boot-helloworld2" options="-parameters" />
+      <module name="boot-web-01" options="-parameters" />
+      <module name="boot-web-admin" options="-parameters" />
+      <module name="example-hello-spring-boot-starter-autoconfigue" options="-parameters" />
+      <module name="example-hello-spring-boot-starter-autoconfigure" options="-parameters" />
+    </option>
+  </component>
+</project>

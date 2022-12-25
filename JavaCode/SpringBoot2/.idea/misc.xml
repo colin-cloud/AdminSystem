@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-helloworld2/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-web-01/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-web-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-adminserver/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-features-profile/pom.xml" />
+        <option value="$PROJECT_DIR$/example-hello-spring-boot-starter-autoconfigue/pom.xml" />
+        <option value="$PROJECT_DIR$/example-hello-spring-boot-starter-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-hello-test/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/boot-custom-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/example-hello-spring-boot-starter/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
