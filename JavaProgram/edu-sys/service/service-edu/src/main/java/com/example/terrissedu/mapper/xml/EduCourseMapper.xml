@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.terrissedu.mapper.EduCourseMapper">
+
+    <select id="pageCoursesInfos" parameterType="com.example.terrissedu.entity.vo.CourseQuery"
+			resultType="com.example.terrissedu.entity.EduCourse">
+        select 	ec.id, ec.title, ec.teacher_id, et.`name` teacher_name,
+				ec.cover, ec.description,
+				ec.subject_id, es1.title second_label, ec.type_id,
+				es2.title first_label, ec.price, ec.lesson_num,
+				ec.sale_count, ec.view_count, ec.version, ec.`status`,
+				ec.is_deleted, ec.create_time, ec.update_time
+
+        from `edu_course` ec left join `edu_teacher` et on et.id = ec.teacher_id
+							 left join `edu_subject` es1 on es1.id = ec.subject_id
+							 left join `edu_subject` es2 on es2.id = ec.type_id
+							<where>
+								ec.is_deleted = 0
+								<if test="query.title != null and query.title != ''">
+									AND ec.title LIKE CONCAT('%',#{query.title},'%')
+								</if>
+								<if test="query.teacherName != null and query.teacherName != ''">
+									AND et.`name` LIKE CONCAT('%',#{query.teacherName},'%')
+								</if>
+								<if test="query.begin != null and query.begin != ''">
+									AND ec.create_time >= #{query.begin}
+								</if>
+								<if test="query.end != null and query.end != ''">
+									AND ec.create_time <![CDATA[<=]]> #{query.end}
+								</if>
+								<if test="query.firstLabel != null and query.firstLabel != ''">
+									AND es1.title like CONCAT('%',#{query.firstLabel},'%')
+								</if>
+							</where>
+							ORDER BY create_time DESC
+    </select>
+
+	<select id="pageCoursesInfosAndSort" parameterType="com.example.terrissedu.entity.vo.CourseQuery"
+			resultType="com.example.terrissedu.entity.EduCourse">
+		select 	ec.id, ec.title, ec.teacher_id, et.`name` teacher_name,
+		ec.cover, ec.description,
+		ec.subject_id, es1.title second_label, ec.type_id,
+		es2.title first_label, ec.price, ec.lesson_num,
+		ec.sale_count, ec.view_count, ec.version, ec.`status`,
+		ec.is_deleted, ec.create_time, ec.update_time
+
+		from `edu_course` ec left join `edu_teacher` et on et.id = ec.teacher_id
+		left join `edu_subject` es1 on es1.id = ec.subject_id
+		left join `edu_subject` es2 on es2.id = ec.type_id
+		<where>
+			ec.is_deleted = 0
+			<if test="query.title != null and query.title != ''">
+				AND ec.title LIKE CONCAT('%',#{query.title},'%')
+			</if>
+			<if test="query.teacherName != null and query.teacherName != ''">
+				AND et.`name` LIKE CONCAT('%',#{query.teacherName},'%')
+			</if>
+			<if test="query.begin != null and query.begin != ''">
+				AND ec.create_time >= #{query.begin}
+			</if>
+			<if test="query.end != null and query.end != ''">
+				AND ec.create_time <![CDATA[<=]]> #{query.end}
+			</if>
+			<if test="query.firstLabel != null and query.firstLabel != ''">
+				AND es1.title like CONCAT('%',#{query.firstLabel},'%')
+			</if>
+			<if test="query.firstLabel != null and query.firstLabel != ''">
+				AND es2.title like CONCAT('%',#{query.secondLabel},'%')
+			</if>
+		</where>
+		<if test="sort == 0">
+			ORDER BY ec.view_count DESC
+		</if>
+		<if test="sort == 1">
+			ORDER BY ec.create_time DESC
+		</if>
+		<if test="sort == 2">
+			ORDER BY ec.price DESC
+		</if>
+	</select>
+
+
+	<select id="getCourseInfoById" resultType="com.example.terrissedu.entity.EduCourse">
+		select 	ec.id, ec.title, ec.teacher_id, et.`name` teacher_name,
+		ec.cover, ec.description,
+		ec.subject_id, es1.title second_label, ec.type_id,
+		es2.title first_label, ec.price, ec.lesson_num,
+		ec.sale_count, ec.view_count, ec.version, ec.`status`,
+		ec.is_deleted, ec.create_time, ec.update_time
+
+		from `edu_course` ec left join `edu_teacher` et on et.id = ec.teacher_id
+		left join `edu_subject` es1 on es1.id = ec.subject_id
+		left join `edu_subject` es2 on es2.id = ec.type_id
+		<where>
+			ec.id = #{id}
+		</where>
+	</select>
+</mapper>
